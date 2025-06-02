@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spreedsheet Habits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f8fbfd;
+      color: #333;
+    }
+    header {
+      background-color: #aedff7;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      padding: 1rem;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product h2 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    .product p {
+      color: #666;
+    }
+    .order-button {
+      background-color: #aedff7;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eef7fb;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spreedsheet Habits</h1>
+    <p>Toko Online Spreadsheet dengan Desain Menarik dan Praktis</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200" alt="Produk 1">
+      <h2>Template Keuangan Pribadi</h2>
+      <p>Rp50.000</p>
+      <button class="order-button">Pesan Sekarang</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200" alt="Produk 2">
+      <h2>Template Catatan Stok</h2>
+      <p>Rp45.000</p>
+      <button class="order-button">Pesan Sekarang</button>
+    </div>
+    <!-- Tambahkan produk lainnya di sini -->
+  </section>
+
+  <footer>
+    &copy; 2025 Spreedsheet Habits. All rights reserved.
+  </footer>
+</body>
+</html>
